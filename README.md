@@ -23,7 +23,7 @@ We built a **Retrieval-Augmented Generation (RAG)** system that leverages the hi
 - **Frontend**: React (Vite) / Vanilla CSS
 - **Embeddings**: Sentence-Transformers (`all-MiniLM-L6-v2`)
 
-## 🔹 6. Architecture (🔥 IMPRESS)
+## 🔹 6. Architecture
 
 **Data & Query Flow:**
 `PDF → Text Extraction → Chunking → Embedding → Endee Vector DB → User Query → Vector Search → Context Retrieval → LLM Prompting → Final Answer`
