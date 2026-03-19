@@ -25,6 +25,7 @@ We built a **Retrieval-Augmented Generation (RAG)** system that leverages the hi
 
 ## 🔹 6. Architecture
 
+
 **Data & Query Flow:**
 `PDF → Text Extraction → Chunking → Embedding → Endee Vector DB → User Query → Vector Search → Context Retrieval → LLM Prompting → Final Answer`
 
@@ -79,12 +80,6 @@ graph LR
 
 ### Video Demo
 ![RAG Flow Demo](assets/Vite%20+%20React%20-%20Google%20Chrome%202026-03-18%2010-13-02.mp4)
-
-## 🔹 9. Demo Questions
-Try these once you've uploaded a lab manual or documentation:
-- ❓ *“Explain Hadoop installation”*
-- ❓ *“Summarize Experiment 1”*
-- ❓ *“What is the main objective of this manual?”*
 
 ---
 *Built with ❤️ using Endee Vector Database.*
